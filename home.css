@@ -1,0 +1,113 @@
+*{
+    font-family: sans-serif;
+}
+
+.up-nav{
+    background-color:#86CD82;
+    padding: 15px;
+}
+.up-nav span{
+    margin-left: 25px;
+}
+
+.up-nav span i{
+    margin-right: 5px;
+}
+
+
+.vision{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f3f1ed;
+}
+
+.vision p{
+    margin-top: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.vision-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision img{
+    width: 550px;
+}
+
+.leadership{
+    margin-top: 40px;
+}
+
+ h2 span{
+    background: #8AE9C1;
+    padding: 7px;
+}
+
+.leadership p{
+    text-align: justify;
+}
+
+.leadership p u{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+/* .feilds{
+    margin-top: 50PX;
+}
+
+.carousel-item{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.feilds img{
+    height: 550px;
+    width: 600px;
+} */
+
+.fleids{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.s-fleids{
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    transition: all 0.5s;
+    border: 1px solid gray;
+}
+
+.s-fleids:hover{
+    box-shadow: 2px 2px 2px 2px grey;
+    cursor: pointer;
+}
+
+.s-fleids i{
+    color: #86CD82;
+    border: 2px solid #86CD82;
+    border-radius: 50%;
+    padding: 30px;
+    margin-top: 10px;
+    transition: font-size 0.3s;
+}
+
+.s-fleids i:hover{
+    font-size: 40px;
+    border: 3px solid #86CD82;
+
+}
+
+.s-fleids span{
+    transition: all 0.3s;
+}
+
+.s-fleids span:hover{
+    color: #86CD82;
+    cursor: pointer;
+}
