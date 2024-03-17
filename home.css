@@ -111,3 +111,53 @@
     color: #86CD82;
     cursor: pointer;
 }
+
+.about h2{
+    padding-top: 15px;
+}
+
+.about p{
+    text-align: justify;
+    padding:20px;
+}
+
+.speciality {
+    line-height: 3;
+}
+
+.speciality li{
+    font-size: 20px;
+}
+
+.speciality ul{
+    padding: 10px 0 10px 50px;
+}
+
+.quality-system{
+    margin-top: 20px;
+    line-height: 4;
+    background-color: #f3f1ed;
+    padding: 40px;
+}
+
+.components{
+    border: 2px solid grey;
+    border-radius: 15px;
+    margin: 20px 0 20px 50px;  
+    padding: 20px;
+}
+.components span{
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 85px;
+    padding: 15px; 
+}
+
+.components span:hover{
+    background-color: black;
+    opacity: 0.3;
+    color: #fff;
+    cursor: pointer;
+}
