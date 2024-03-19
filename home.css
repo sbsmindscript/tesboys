@@ -143,8 +143,8 @@
 .components{
     border: 2px solid grey;
     border-radius: 15px;
-    margin: 20px 0 20px 50px;  
-    padding: 20px;
+    padding: 15px;
+    margin-top: 10px;
 }
 .components span{
     font-size: 18px;
