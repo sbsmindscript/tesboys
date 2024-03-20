@@ -1,13 +1,5 @@
-.navbar {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: #f1ffe0;
-}
-
-.navbar-toggler {
-  border-color: #ffffff;
+nav{
+  background-color: #fff;
 }
 
 .nav-item {
@@ -18,8 +10,8 @@
 }
 
 .nav-item a:hover {
-  border-bottom: 4px solid #0051ff;
-  color: #ff0000;
+  border-bottom: 4px solid #86CD82;
+  color:#86CD82;
 }
 
 .navbar-brand img {

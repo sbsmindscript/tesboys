@@ -3,7 +3,7 @@
 }
 
 .up-nav{
-    background-color:#e4fd00fd;
+    background-color:#86CD82;
     padding: 15px;
 }
 .up-nav span{
@@ -136,28 +136,37 @@
 .quality-system{
     margin-top: 20px;
     line-height: 4;
-    background-color: #f3f1ed;
+    height: 500px;
     padding: 40px;
+
+    /* parallax */
+  background-image: url("images/banner-img.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .components{
-    border: 2px solid grey;
+    border: 2px solid #fff;
     border-radius: 15px;
     padding: 15px;
-    margin-top: 10px;
+    margin-top: 70px;
 }
 .components span{
     font-size: 18px;
     font-weight: 500;
-    border: 2px solid black;
+    border: 2px solid #fff;
     border-radius: 25px;
     margin-left: 85px;
-    padding: 15px; 
+    padding: 15px;
+    color: #fff;
 }
 
 .components span:hover{
     background-color: black;
-    opacity: 0.3;
+    opacity: 0.8;
     color: #fff;
     cursor: pointer;
 }
