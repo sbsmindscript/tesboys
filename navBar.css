@@ -1,17 +1,29 @@
-.nav-item{
-    margin-left: 30px;
-    font-size: 18px;
-    font-weight: 600;
-    color: black;
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #f1ffe0;
 }
 
-.nav-item a:hover{
-    border-bottom: 4px solid #86CD82;
-    color: #86CD82;
+.navbar-toggler {
+  border-color: #ffffff;
 }
 
-.navbar-brand img{
-    width: 170px;
-    max-height: 60px;
-    margin-left: 10px;
+.nav-item {
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.nav-item a:hover {
+  border-bottom: 4px solid #0051ff;
+  color: #ff0000;
+}
+
+.navbar-brand img {
+  width: 170px;
+  max-height: 60px;
+  margin-left: 10px;
 }
