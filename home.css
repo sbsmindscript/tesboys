@@ -169,6 +169,7 @@
     padding: 15px;
     background-color: #8AE9C1;
     color: black;
+    box-shadow: 2px 0 2px 0 gray
 }
 
 .components span:hover{
