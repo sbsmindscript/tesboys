@@ -14,6 +14,12 @@
     margin-right: 5px;
 }
 
+.carousel h2 span{
+    color: black;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px black;
+}
 
 .vision{
     padding-top: 30px;
@@ -149,7 +155,7 @@
 }
 
 .components{
-    border: 2px solid #fff;
+    border: 2px solid gray;
     border-radius: 15px;
     padding: 15px;
     margin-top: 70px;
@@ -157,16 +163,14 @@
 .components span{
     font-size: 18px;
     font-weight: 500;
-    border: 2px solid #fff;
+    border: 2px solid gray;
     border-radius: 25px;
     margin-left: 85px;
     padding: 15px;
-    color: #fff;
+    background-color: #8AE9C1;
+    color: black;
 }
 
 .components span:hover{
-    background-color: black;
-    opacity: 0.8;
-    color: #fff;
     cursor: pointer;
 }
