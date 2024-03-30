@@ -1,0 +1,159 @@
+/*.black_text_header  .inner-nav > ul > li > a {
+    color: #0F0F0F ;
+    font-weight: 500;
+    opacity: 1 !important;
+}*/
+
+.black_text_header .inner-nav > ul > li > a:hover {
+    color: #8CC547 !important;
+}
+.banner_sec .banner_img_div img {
+    width: 100%;
+}
+.banner_sec .banner_text {
+    color: #0F0F0F !important;
+    top: 290px;
+}
+
+.bg-gray {
+    background-color: #F1F1F1;
+}
+
+.about_team_sec .team-item-name {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.about_team_sec .team-item-role {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.sol_detail_overvw .decoration-1 {
+    bottom: -150px;
+    z-index: 99999;
+}
+.decoration-3,.decoration-2,.decoration-1{
+    opacity: 0.3;
+}
+.about_home_sec h3.section-title {
+    margin-bottom: 40px !important;
+}
+.feature_sec .row {
+    justify-content: center;
+}
+.feature_sec .d-flex {
+    display: block !important;
+}
+.feature_sec .services-3-item {
+    min-height: 320px !important;
+    height: 100% !important;
+}
+.Brands_sec,.testim_sec {
+    padding: 60px 0;
+}
+.latest_proj_sec {
+    padding-bottom: 50px !important;
+}
+.industry_serve_sec .features-icon {
+    width: 120px;
+    height: 110px;
+    overflow: hidden;
+    /* border-radius: 100%; */
+    /* line-height: 110px; */
+    margin: 0 auto 0px;
+    position: relative;
+}
+
+.industry_serve_sec .features-icon svg {
+    z-index: 8;
+    transition:all 0.4s ease-in-out;
+    position: relative;
+}
+
+.industry_serve_sec .owl-item:hover .features-icon:after {
+    opacity: 1;
+}
+
+.industry_serve_sec .owl-item:hover .features-icon svg {
+    filter: brightness(5);
+}
+.industry_serve_sec .owl-buttons:hover svg {
+    color: #c54938 !important;
+}
+
+.usp_sec .alt-features-item:hover .alt-features-icon svg {
+    color: #c14737;
+}
+section.achievements_sec {
+    background-image: url(../images/section-bg-2.jpg);
+    position: relative;
+}
+
+section.achievements_sec:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #C54938 !important;
+    top: 0;
+    opacity: 0.9;
+}
+
+section.achievements_sec .position-relative {
+    z-index: 4;
+}
+.team-carousel .owl-prev:hover:before,.team-carousel .owl-next:hover:before {
+    background-color: #C54938 !important;
+}
+
+.team-carousel .owl-prev:hover svg, .team-carousel .owl-next:hover svg {
+    fill: #ffffff;
+}
+.latest_proj_sec .post-prev-container {
+    min-height: 520px;
+    width: 100%;
+}
+.latest_proj_sec .post-prev-container:hover  img,.other_sol_sec .features-item:hover img {
+    transform:scale(1.1);
+}
+.other_sol_sec .features-icon {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+}
+.other_sol_sec  .features-icon:after{
+    display: none;
+}
+.sol_app_sec .decoration-3 {
+    right: auto;
+    left: 100px;
+}
+.banner_text span.link-hover-anim.underline.head_btn {
+    padding: 0;
+}
+
+
+.banner_text .link-strong-hovered {
+    right: 0 ;
+    top: 4px !important;
+}
+.client_tab_sec img {
+    width: 90% !important;
+}
+.sol_app_ul li {
+    margin-bottom:60px;
+}
+
+.sol_app_ul li:nth-child(2n) .row {flex-flow: row-reverse;}
+
+
+.industry_serve_sec .item-carousel {
+    padding-bottom: 0;
+  }
+
+.view_all_blogs {
+    background-color: #8fc54c;
+}
